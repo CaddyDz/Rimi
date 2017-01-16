@@ -41,3 +41,17 @@ my $big_int = 18446744073709551615;
 # %u : Unsigned integer
 # %f : Floating Point (Decimal Notation)
 # %e : Floating Point (Scientific Notation)
+
+printf("%u \n", $big_int + 1); # Output 18446744073709551615
+
+my $big_float = .1000000000000001;
+
+printf("%.16f \n", $big_float + .1000000000000001); # Output 0.2000000000000002
+
+my $first = 1;
+my $second = 2;
+
+($first, $second) = ($second, $first);
+
+say "$first $second";
+
