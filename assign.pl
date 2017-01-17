@@ -23,4 +23,8 @@ say "--6 = ", --$rand_num;
 # Order of operation matters
 say "3 + 2 * 5 = ", 3 + 2 * 5;
 say "(3 + 2) * 5 = ", (3 + 2) * 5;
- 
+
+
+
+# Trying wakatime plugin
+say "Waka Time not working :'(";
