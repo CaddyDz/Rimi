@@ -1,17 +1,22 @@
-# Pragmas
+# We define the below "Pragmas" to force us to write good code and to provide us with information on how to correct errors.
 use strict;
 use warnings;
 use diagnostics;
 
+# Say is a function that prints out a given string value followed by a new line.
 use feature 'say';
 
+# Use a perl version of a switch statement called "Given when"
 use feature "switch";
 
+# Use a specified version of perl as long as installed.
 use v5.20;
 
 print "Hello World\n";
 
 # There are three data types (Scalars, Arrays and hashes)
+# Use the "my" function to declare a variable.
+# The Sigil $ says that we are defining a scalar or a value 
 
 my $name = 'Salim';
 
@@ -54,4 +59,3 @@ my $second = 2;
 ($first, $second) = ($second, $first);
 
 say "$first $second";
-
