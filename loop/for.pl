@@ -1,0 +1,14 @@
+use strict;
+use warnings;
+use diagnostics;
+
+use feature 'say';
+
+use feature "switch";
+
+use v5.20;
+
+for(my $i = 0; $i < 10; $i++){
+	say $i;
+}
+
