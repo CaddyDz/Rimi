@@ -2,13 +2,10 @@
 use strict;
 use warnings;
 use diagnostics;
-
 # Say is a function that prints out a given string value followed by a new line.
 use feature 'say';
-
 # Use a perl version of a switch statement called "Given when"
 use feature "switch";
-
 # Use a specified version of perl as long as installed.
 use v5.20;
 
