@@ -21,3 +21,9 @@ $whiskers->setName("Whiskers");
 say $whiskers->getName();
 
 say $whiskers->getSound();
+
+use Animal::Lion;
+
+my $king = new Animal::Lion("King", "No Owner");
+
+say $king->getSound();
