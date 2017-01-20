@@ -10,3 +10,8 @@ use feature 'say';
 use feature "switch";
 
 # Use a specific version of perl as long as it's installed
+use v5.20;
+
+# A comment
+# Executes in the terminal when you type perltut1.pl
+print "Hello World\n";
