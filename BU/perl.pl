@@ -15,3 +15,8 @@ use v5.20;
 # A comment
 # Executes in the terminal when you type perltut1.pl
 print "Hello World\n";
+# There are three main data types in perl
+# Scalars, Arrays and Hashes
+# Scalars holds (Integers, Characters, Strings, Floats)
+
+# Use 'my' to create a new variable (You can either give it a value or not, given that the default value is 'undefined')
