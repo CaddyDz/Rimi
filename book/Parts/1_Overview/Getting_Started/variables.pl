@@ -11,4 +11,3 @@ $cents # Scalar (an individual value be it a number or a string)
 @large # Array (A list of values, keyed by number)
 %interest # Hash (A group of values, keyed by string)
 &how # Subroutine (A callable chunk of Perl code)
-*struck #
