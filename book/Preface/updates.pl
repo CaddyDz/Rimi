@@ -1,3 +1,4 @@
+#!usr/bin/perl
 # A new feature added to Perl 5 (Switch statement in other programming languages) and it is called given when
 # The only way to use this feature is to call it using ONE of these statements
 use v5.10;

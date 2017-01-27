@@ -1,3 +1,4 @@
+#!usr/bin/perl
 # Scalars can be assigned a new value with the "=" operator. Scalar variables can store different forms of data including "Integers, Floating-point numbers, strings and even esoteric things like references to other variables, or to objects."
 
 my $answer = 22;		# an integer

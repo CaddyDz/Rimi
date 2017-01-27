@@ -1,3 +1,4 @@
+#!usr/bin/perl
 # We call a singular variable a `scalar` and a plural variable an `array`, and since a string can be stored in a scalar variable, we might write a slightly longer (and commented) version of our first example like this:
 my $phrase = "Howdy, world!\n"; # Create a variable.
 print $phrase; # Print new variable.

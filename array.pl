@@ -1,3 +1,4 @@
+#!usr/bin/perl
 use strict;
 use warnings;
 use diagnostics;
@@ -15,15 +16,15 @@ my @my_info = ("Salim", "123 Main St", 22, 1.82);
 $my_info[4] = "Djerbouh";
 
 for my $info (@my_info){
-    say $info;
+	say $info;
 }
 
 foreach my $num (@primes){
-    say $num;
+	say $num;
 }
 
 for (@my_info){
-    say $_;
+	say $_;
 }
 
 my @my_name = @my_info[0, 4];
