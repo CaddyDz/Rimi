@@ -51,5 +51,4 @@ my $second = 2;
 
 ($first, $second) = ($second, $first);
 
-print($first, "\n", $second);
-
+say "$first $second";
