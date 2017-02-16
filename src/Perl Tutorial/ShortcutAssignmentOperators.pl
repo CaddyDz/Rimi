@@ -16,4 +16,9 @@ say "Number Incremented ", $rand_num;
 say "6++ = ", $rand_num++;
 say "++6 = ", ++$rand_num;
 say "6-- = ", $rand_num--;
-say "--6 = ", --6;
+say "--6 = ", --$rand_num;
+
+# Order of operations  3 + 2 * 5
+
+say "3 + 2 * 5 = ", 3 + 2 * 5;
+say "(3 + 2) * 5 = ", (3 + 2) * 5;
