@@ -11,5 +11,3 @@ use feature "switch";
 for(my $i = 0; $i < 1000000; $i++){
 	say $i;
 }
-1000000 in 7 seconds
-142857 calculation per second
