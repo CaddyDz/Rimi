@@ -8,11 +8,11 @@ use feature "switch";
 
 use v5.20;
 
-my $lucky = 15;
+my $lucky_num = 15;
 
 my $guess;
 
 do{
-	say "Guess a number between 1 and 20";
+	say "Guess a number between 0 and 20";
 	$guess = <STDIN>;
-} while($lucky != $guess)
+} while($guess != $lucky_num)
