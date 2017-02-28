@@ -1,2 +1,2 @@
-# fantastic-spoon
-Perl Programming exercices and tests
+# Rimi
+An expiremental search engine

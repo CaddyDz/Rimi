@@ -1,7 +1,0 @@
-Phil:Salesman:125
-1
-Sam:Janitor:122
-Sue:Manager:123
-Mark:Salesman:124
-Salim:CEO:154
-Salim:CEO:154
